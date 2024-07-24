@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="typewriter.css">
+    <link rel="stylesheet" href="projectcard.css">
+    <link rel="stylesheet" href="foot.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<body>
+
+    <header>
+        <h1>Pocket Playground</h1>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#third">Games</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <img src="assets/mount2.png" class="mount2">
+        <img src="assets/mount1.png" class="mount1">
+        <img src="assets/bush2.png" class="bush2">
+
+        <h1 class="title">Tic-Tac-Toe</h1>
+
+        <img src="assets/bush1.png" class="bush1">
+        <img src="assets/leaf2.png" class="leaf2">
+        <img src="assets/leaf1.png" class="leaf1">
+    </section>
+
+    <section class="about">
+        <br><br><br>
+        <section id="third" data-aos="fade-down">
+            <h1><center>Game Modes</center></h1>
+            <div class="pro">
+                <div class="projects">
+                    <div class="p" data-aos="flip-left"><a href="3x3.html">
+                        <img src="images/3x3.jpeg" class="custom" alt="">
+                        <p>3 x 3 standard</p>
+                    </a></div>
+                    <div class="p" data-aos="flip-left"><a href="4x4.html">
+                        <img src="images/4x4.jpg" class="custom" alt="">
+                        <p>4 x 4</p>
+                    </a></div>
+                    <div class="p" data-aos="flip-left"><a href="custom.html">
+                        <img src="images/custom.webp" class="custom" alt="">
+                        <p>m x n custom tic-tac-toe</p>
+                    </a></div>
+                    <div class="p" data-aos="flip-left"><a href="stack.html">
+                        <img src="images/stack.jpg" class="custom" alt="">
+                        <p>m x n stack mode</p>
+                    </a></div>
+                    <div class="p" data-aos="flip-left"><a href="flip.html">
+                        <img src="images/flip.jpg" class="custom" alt="">
+                        <p>8 x 6 flip game</p>
+                    </a></div>
+                </div>
+            </div>
+        </section>
+        
+            
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 180,
+        duration:500,
+      });
+    </script>
+    <script src="script.js"></script>
+    <footer>
+        <center><h1>Connect with Us</h1>
+            <div class="imglinks">
+                <img src="youtube.svg" alt="" class="footimg">
+                <img src="twitter.svg" alt="" class="footimg">
+                <img src="instagram.svg" alt="" class="footimg">
+                <img src="facebook.svg" alt="" class="footimg">
+                <img src="discord.svg" alt="" class="footimg">
+                <img src="mail.svg" alt="" class="footimg">
+            </div>
+            <h1>Download our Apps</h1>
+            <hr class="divider"></center>
+            <div class="footend">
+                <div class="footright">Copyright &#169; 2024 Pocketplays Ltd. | All rights reserved</div>
+                <div class="foottermsup"> Support | Terms | Privacy </div>
+            </div>
+    </footer>
+</body>
+</html>
